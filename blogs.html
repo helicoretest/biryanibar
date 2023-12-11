@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Our Blogs | Biryani Bar</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg main-nav">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <image class="img-fluid logo" src="./assets/images/main-logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="mobile-menu">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.72093 0C2.56744 0 0 2.56744 0 5.72093C0 8.87442 2.56744 11.4419 5.72093 11.4419H11.4419V5.72093C11.4419 2.56744 8.87442 0 5.72093 0ZM9.2093 9.2093H5.72093C3.79535 9.2093 2.23256 7.64651 2.23256 5.72093C2.23256 3.79535 3.79535 2.23256 5.72093 2.23256C7.64651 2.23256 9.2093 3.79535 9.2093 5.72093V9.2093Z"
+                                fill="#FC8F82" />
+                            <path
+                                d="M18.2834 0C15.1299 0 12.5625 2.56744 12.5625 5.72093V11.4419H18.2834C21.4369 11.4419 24.0044 8.87442 24.0044 5.72093C24.0044 2.56744 21.4369 0 18.2834 0ZM18.2834 9.2093H14.7951V5.72093C14.7951 3.79535 16.3578 2.23256 18.2834 2.23256C20.209 2.23256 21.7718 3.79535 21.7718 5.72093C21.7718 7.64651 20.209 9.2093 18.2834 9.2093Z"
+                                fill="#FC8F82" />
+                            <path
+                                d="M0 18.279C0 21.4325 2.56744 24 5.72093 24C8.87442 24 11.4419 21.4325 11.4419 18.279V12.5581H5.72093C2.56744 12.5581 0 15.1255 0 18.279ZM9.2093 18.279C9.2093 20.2046 7.64651 21.7674 5.72093 21.7674C3.79535 21.7674 2.23256 20.2046 2.23256 18.279C2.23256 16.3535 3.79535 14.7907 5.72093 14.7907H9.2093V18.279Z"
+                                fill="#FC8F82" />
+                            <path
+                                d="M18.2834 12.5581H12.5625V18.279C12.5625 21.4325 15.1299 24 18.2834 24C21.4369 24 24.0044 21.4325 24.0044 18.279C24.0044 15.1255 21.4369 12.5581 18.2834 12.5581ZM18.2834 21.7674C16.3578 21.7674 14.7951 20.2046 14.7951 18.279V14.7907H18.2834C20.209 14.7907 21.7718 16.3535 21.7718 18.279C21.7718 20.2046 20.209 21.7674 18.2834 21.7674Z"
+                                fill="#FC8F82" />
+                        </svg>
+                    </div>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end fill" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./menu.html">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="Menu">
+                                        MENU
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="Catering">
+                                        CATERING
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ourstory.html">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="Our">
+                                        OUR
+                                    </span>
+                                    <span class="menu__second-word" data-hover="Story">
+                                        STORY
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="Locations">
+                                        LOCATIONS
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blogs.html">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="News">
+                                        NEWS
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./franchising.html">
+                                <span class="menu__title">
+                                    <span class="menu__first-word" data-hover="franchising">
+                                        FRANCHISING
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item contact-h">
+                            <button class="main-btn">
+                                Contact
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- our blog sec start -->
+    <div class="our-blogs sec-gap">
+        <div class="container">
+        <div class="bg-color-main"></div>
+
+            <div class="main-content">
+                <h1 class="secondary-header text-center"><span class="inner-txt">Our</span> Blogs</h1>
+                <div class="orange-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="87" height="78" viewBox="0 0 87 78"
+                        fill="none">
+                        <path opacity="0.1"
+                            d="M44.2306 7.20762C44.2306 7.20762 49.3447 0.640842 57.7407 1.01544C66.1367 1.39003 73.642 6.57573 75.9693 15.1782C78.2326 23.5423 76.1407 30.898 72.0302 35.0866C68.0441 39.1447 59.7366 39.5231 59.7366 39.5231M56.9065 57.0913C56.9065 57.0913 60.1207 57.3637 62.0827 62.3545C64.5927 68.7397 58.7688 75 58.7688 75C58.9608 70.974 53.5662 70.344 49.3089 68.2062C45.0516 66.0683 46.3038 59.6491 48.0568 56.6618C49.8098 53.6745 53.4871 52.441 55.6751 53.3586C57.575 54.1551 56.0291 57.5605 53.8807 55.8407C50.6834 53.281 51.8151 47.6961 66.0896 43.7421C80.3641 39.788 84.9999 55.3697 84.9999 55.3697C84.9999 55.3697 82.9136 54.2799 78.0707 55.4529C73.2278 56.6278 74.3142 57.8008 68.4696 58.0543C62.625 58.3059 55.8841 51.0315 55.8841 51.0315M55.8841 51.0334C55.8841 51.0334 74.4686 44.2548 77.2817 49.3061C80.0948 54.3575 63.5401 46.7653 63.5401 46.7653M50.8943 58.5272C50.8943 58.5272 56.7804 64.7421 57.5317 66.0002C58.283 67.2583 57.1551 69.3338 55.7165 68.3916C54.2761 67.4475 55.886 59.844 55.886 59.844M65.4287 51.1242C65.4287 51.1242 68.4866 51.7713 70.6576 53.8675M9.09702 13.116C13.1321 7.87357 22.3434 3.17031 33.4885 4.42842C44.6336 5.68653 51.3971 10.2157 55.7787 18.1428C60.1621 26.0698 59.5351 41.9239 55.1516 48.0896C50.7701 54.2572 43.3419 62.4567 28.9243 61.9194C15.0527 61.4029 4.53279 52.318 1.62366 39.2299C-0.95972 27.6061 5.06001 18.3604 9.09702 13.116ZM20.7976 27.0366C19.7243 27.4547 19.4192 29.9312 20.7976 30.3077C22.1759 30.6861 24.0117 29.8044 23.6784 28.6712C23.3433 27.5398 22.0911 26.5334 20.7976 27.0366ZM47.9683 20.7536C48.4635 19.8058 47.313 18.2166 46.1795 18.9204C45.0441 19.6241 44.289 21.3382 45.1326 21.7506C45.978 22.1631 47.3714 21.8963 47.9683 20.7536ZM22.1759 36.4696C21.724 37.4383 22.9441 38.9726 24.0456 38.2177C25.1471 37.4628 25.825 35.7166 24.9626 35.3439C24.1021 34.9712 22.72 35.3023 22.1759 36.4696ZM67.6656 10.4371C67.2457 10.7701 68.5261 16.1639 67.1497 16.5593C65.7733 16.9547 65.6264 15.4033 66.2892 15.2047C66.952 15.0079 69.6916 19.4368 70.2716 19.259C70.8515 19.0831 70.0513 13.1728 71.23 13.343C72.4106 13.5114 72.4596 14.9512 71.7214 15.0363C70.9852 15.1195 68.0855 10.1041 67.6656 10.4371ZM41.7113 12.7736C43.1159 15.7647 34.2436 34.5455 31.9163 31.8496C29.589 29.1555 45.0535 15.3447 48.085 16.0163C51.1165 16.6879 57.3038 29.6966 54.4192 32.1674C51.5345 34.6382 31.6545 36.1423 32.0029 34.0177C32.3512 31.8931 51.5345 32.0653 52.7038 35.1964C53.8731 38.3274 53.6359 40.2742 51.9205 44.0012C50.2052 47.7283 48.1867 52.6264 44.0988 51.7694C40.0129 50.9123 29.4685 37.4912 31.8485 36.0042C34.2285 34.5172 40.7679 50.2729 38.6139 54.6867C36.8194 58.3664 22.0761 59.4675 20.6959 53.8864C19.0822 47.3594 27.9489 35.3382 29.4101 36.1272C30.8712 36.9161 22.3133 51.7542 15.8021 51.1242C9.29096 50.4923 6.22178 39.0066 7.83922 34.8104C9.45666 30.6142 27.9282 31.8799 28.3462 33.8645C28.7642 35.8472 8.98028 30.968 7.4664 28.6523C5.95252 26.3366 12.733 12.1947 19.0276 13.1406C25.3222 14.0866 32.0462 31.2007 30.1859 32.1807C28.3255 33.1607 20.0256 14.2568 24.0513 10.5657C28.077 6.87465 39.7794 8.65492 41.7113 12.7736Z"
+                            stroke="#E83338" stroke-width="2" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog2.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog2.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog2.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="content">
+                            <div class="img-box">
+                                <img src="./assets/images/blog1.png" class="img-fluid" alt="blog1" />
+                            </div>
+                            <div class="main-card">
+                                <h1 class="para-txt">Ambur Biryani</h1>
+                                <h6 class="p-txt">
+                                    The number 8 entry of the list uses a different choice of protein, unlike most
+                                    biryanis. Coming from the sea-land of goa....
+                                </h6>
+                                <div class="publish">
+                                    <h6 class="p-txt">Published By:<span class="admin">Admin</span></h6>
+                                    <h6 class="p-txt">May 8, 2023</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our blog sec end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12 first-sec">
+                        <img class="img-fluid logo" src="./assets/images/main-logo.png" alt="logo" />
+                        <h6 class="p-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </h6>
+                        <div class="social-icons">
+                            <a><i class="fa-brands fa-facebook-f icons"></i></a>
+                            <a><i class="fa-brands fa-instagram icons ml-3"></i></a>
+                            <a> <i class="fa-brands fa-x-twitter icons ml-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-12 col-sm-12 menu-links-sec">
+                        <h6 class="para-txt">About Us</h6>
+                        <h6 class="p-txt"><a>About Us</a></h6>
+                        <h6 class="p-txt"><a>Service</a></h6>
+                        <h6 class="p-txt"><a>Contact</a></h6>
+                        <h6 class="p-txt"><a>Company</a></h6>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-12 col-sm-12 menu-links-sec">
+                        <h6 class="para-txt">Company</h6>
+                        <h6 class="p-txt"><a>Partnership</a></h6>
+                        <h6 class="p-txt"><a>Terms of Use</a></h6>
+                        <h6 class="p-txt"><a>Privacy</a></h6>
+                        <h6 class="p-txt"><a>Sitemap</a></h6>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-12 col-sm-12 menu-links-sec">
+                        <h6 class="para-txt">Company</h6>
+                        <h6 class="p-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        </h6>
+                        <div class="contact-info">
+                            <input type="text" placeholder="Email" />
+                            <button class="main-btn ml-2">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 col-sm-12 strip">
+                        <h6 class="p-txt">© 2023 Copyright Biryani Bar</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        type="text/javascript"></script>
+
+    <script>
+        SmoothScroll({
+            animationTime: 800,
+            stepSize: 100,
+            accelerationDelta: 50,
+            accelerationMax: 3,
+            touchpadSupport: true,
+        });
+    </script>
+
+</body>
+
+</html>
