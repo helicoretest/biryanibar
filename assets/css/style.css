@@ -1451,6 +1451,13 @@ footer .main-content .strip .p-txt {
 .our-blogs .main-content .row {
   gap: 40px 0px;
 }
+@media (max-width: 526px) {
+  .our-blogs .main-content .col-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .our-blogs .main-content .content:hover .img-box img {
   transform: scale(0.9);
 }

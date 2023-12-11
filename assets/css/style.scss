@@ -796,8 +796,9 @@ footer {
         .row {
             gap: 100px 0px;
         }
-        .col-box{
-            @include mobile{
+
+        .col-box {
+            @include mobile {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -1796,6 +1797,14 @@ footer {
             gap: 40px 0px;
         }
 
+        .col-box {
+            @include mobile {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
         .content {
             &:hover {
                 .img-box {
@@ -2199,7 +2208,7 @@ footer {
     .main-content {
         padding-top: 80px;
 
-        @include mobile{
+        @include mobile {
             padding: 60px 20px;
         }
 
@@ -2213,7 +2222,7 @@ footer {
                 border-radius: 20px;
                 padding: 22px;
 
-                @include mobile{
+                @include mobile {
                     min-width: auto;
                     min-height: auto;
                 }
@@ -2230,7 +2239,7 @@ footer {
                     justify-content: space-between;
                     align-items: center;
 
-                    @include mobile{
+                    @include mobile {
                         justify-content: center;
                         flex-direction: column;
                     }
@@ -2244,7 +2253,7 @@ footer {
                             height: 100%;
                         }
 
-                        @include mobile{
+                        @include mobile {
                             margin: 20px 0px;
                         }
                     }
@@ -2256,7 +2265,7 @@ footer {
                         font-size: 16px;
                         opacity: 0.8;
 
-                        @include mobile{
+                        @include mobile {
                             width: 100%;
                             text-align: justify;
                         }
@@ -2278,15 +2287,15 @@ footer {
     .main-content {
         padding: 70px 0px;
 
-        @include mobile{
+        @include mobile {
             padding: 0px 20px 60px 20px;
         }
 
         .personal-info {
             margin-top: 40px;
 
-            .para-txt{
-                @include mobile{
+            .para-txt {
+                @include mobile {
                     margin-bottom: 20px;
                     text-align: center;
                 }
