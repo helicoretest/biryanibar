@@ -796,6 +796,13 @@ footer {
         .row {
             gap: 100px 0px;
         }
+        .col-box{
+            @include mobile{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
 
         .main-card {
             width: 339px;

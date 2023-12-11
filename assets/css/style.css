@@ -614,6 +614,13 @@ footer .main-content .strip .p-txt {
 .authentic .main-content .row {
   gap: 100px 0px;
 }
+@media (max-width: 526px) {
+  .authentic .main-content .col-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .authentic .main-content .main-card {
   width: 339px;
   min-height: 275px;
