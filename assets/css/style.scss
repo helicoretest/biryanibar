@@ -2133,6 +2133,8 @@ footer {
     }
 }
 
+//indian food sec end
+
 .dots-box-sec {
     img {
         transform: rotate(27.192deg);
@@ -2201,7 +2203,6 @@ footer {
 }
 
 // biryani sec end
-
 
 //serving sec start
 .serving {
@@ -2279,8 +2280,6 @@ footer {
 //serving sec end
 
 //interested franchising sec start 
-
-//interested franchising sec end 
 .interested-fra {
     background: linear-gradient(0deg, #FFEFD0 -51.44%, rgba(195, 177, 143, 0) 100%);
 
@@ -2326,9 +2325,76 @@ footer {
     }
 }
 
-// indian food sec end
-
-
-
+//interested franchising sec end 
 
 //franchising page end
+
+//location page start
+.location {
+    .container {
+        position: relative;
+
+        .bg-color-main {
+            position: absolute;
+            right: -5%;
+            width: 520.099px;
+            height: 300.78px;
+            background-color: #FDC55E;
+            filter: blur(230px);
+            top: -23%;
+
+            @include tablet {
+                right: -2%;
+            }
+
+            @include mobile {
+                right: 0;
+            }
+        }
+
+        .main-content {
+
+            @include tablet{
+                padding-top: 60px;
+            }
+            @include mobile{
+                padding: 60px 20px 0px 20px;
+            }
+            .secondary-header {
+                color: #000;
+                margin-bottom: 40px;
+            }
+
+            .row {
+                gap: 30px 0px;
+
+                .col-box {
+
+                    .content {
+                        background-color: $primary-txt-color;
+                        max-width: 350px;
+                        padding: 20px;
+
+                        .para-txt {
+                            color: $white-color;
+                            text-align: center;
+                            margin-bottom: 12px;
+                        }
+
+                        .p-txt {
+                            color: $white-color;
+                            opacity: 0.8;
+
+                            &.hours {
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//location page end
