@@ -377,10 +377,26 @@ footer {
     .main-content {
         padding: 30px 0px;
 
+        @include mobile {
+            padding: 30px 20px;
+        }
+
         .first-sec {
+
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+
             .p-txt {
                 text-align: start;
                 margin: 20px 0px;
+
+                @include mobile {
+                    display: none;
+                }
             }
 
             .social-icons {
@@ -393,11 +409,19 @@ footer {
                         color: $primary-txt-color;
                     }
                 }
+
+                @include mobile {
+                    display: none;
+                }
             }
         }
 
         .menu-links-sec {
             margin-top: 60px;
+
+            @include mobile {
+                margin-top: 40px;
+            }
 
             .para-txt {
                 font-weight: 900;
@@ -425,6 +449,11 @@ footer {
                     display: block;
                 }
 
+                @include mobile {
+                    display: flex;
+                    margin-top: 20px;
+                }
+
                 input {
                     width: 50%;
                     height: 50px;
@@ -438,6 +467,31 @@ footer {
                         margin-bottom: 20px;
                         margin-top: 10px;
                     }
+
+                    @include mobile {
+                        width: 50%;
+                        margin-bottom: 0px;
+                        margin-top: 0px;
+                    }
+                }
+            }
+
+            .social-icons {
+                display: none;
+
+                i {
+                    color: #FDC55E;
+                    font-size: 20px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $primary-txt-color;
+                    }
+                }
+
+                @include mobile {
+                    display: block;
+                    margin-top: 20px;
                 }
             }
 
@@ -2354,12 +2408,14 @@ footer {
 
         .main-content {
 
-            @include tablet{
+            @include tablet {
                 padding-top: 60px;
             }
-            @include mobile{
+
+            @include mobile {
                 padding: 60px 20px 0px 20px;
             }
+
             .secondary-header {
                 color: #000;
                 margin-bottom: 40px;

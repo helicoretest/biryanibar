@@ -265,9 +265,26 @@ body {
 footer .main-content {
   padding: 30px 0px;
 }
+@media (max-width: 526px) {
+  footer .main-content {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 526px) {
+  footer .main-content .first-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 footer .main-content .first-sec .p-txt {
   text-align: start;
   margin: 20px 0px;
+}
+@media (max-width: 526px) {
+  footer .main-content .first-sec .p-txt {
+    display: none;
+  }
 }
 footer .main-content .first-sec .social-icons i {
   color: #FDC55E;
@@ -277,8 +294,18 @@ footer .main-content .first-sec .social-icons i {
 footer .main-content .first-sec .social-icons i:hover {
   color: #E83338;
 }
+@media (max-width: 526px) {
+  footer .main-content .first-sec .social-icons {
+    display: none;
+  }
+}
 footer .main-content .menu-links-sec {
   margin-top: 60px;
+}
+@media (max-width: 526px) {
+  footer .main-content .menu-links-sec {
+    margin-top: 40px;
+  }
 }
 footer .main-content .menu-links-sec .para-txt {
   font-weight: 900;
@@ -305,6 +332,12 @@ footer .main-content .menu-links-sec .contact-info {
     display: block;
   }
 }
+@media (max-width: 526px) {
+  footer .main-content .menu-links-sec .contact-info {
+    display: flex;
+    margin-top: 20px;
+  }
+}
 footer .main-content .menu-links-sec .contact-info input {
   width: 50%;
   height: 50px;
@@ -318,6 +351,30 @@ footer .main-content .menu-links-sec .contact-info input {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+}
+@media (max-width: 526px) {
+  footer .main-content .menu-links-sec .contact-info input {
+    width: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+footer .main-content .menu-links-sec .social-icons {
+  display: none;
+}
+footer .main-content .menu-links-sec .social-icons i {
+  color: #FDC55E;
+  font-size: 20px;
+  cursor: pointer;
+}
+footer .main-content .menu-links-sec .social-icons i:hover {
+  color: #E83338;
+}
+@media (max-width: 526px) {
+  footer .main-content .menu-links-sec .social-icons {
+    display: block;
+    margin-top: 20px;
   }
 }
 footer .main-content .strip {
