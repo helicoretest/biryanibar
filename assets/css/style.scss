@@ -257,7 +257,13 @@ $breakpoints: (
 
                     @include tablet {
                         border-bottom: 1px solid #FFDADB;
+
+                        &:nth-last-child(1) {
+                            border-bottom: none;
+                        }
                     }
+
+
 
                     .nav-link {
                         color: #191919;
@@ -325,6 +331,11 @@ $breakpoints: (
 
                     &.contact-h {
                         padding-left: 1.5rem;
+
+                        @include tablet {
+                            padding-left: 0;
+                            padding-top: 20px;
+                        }
                     }
 
                 }
@@ -940,9 +951,14 @@ footer {
                     width: 243px;
                     position: relative;
 
+                    @include tablet{
+                        margin-left: 20px;
+                    }
+
                     @include mobile {
                         width: auto;
                         padding: 0px 40px;
+                        margin-left: 0px;
                     }
 
                     .para-txt {
