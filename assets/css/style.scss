@@ -749,6 +749,13 @@ footer {
                     position: relative;
                     margin-top: 90px;
 
+                    @include large-tablet{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
                     @include tablet {
                         display: flex;
                         flex-direction: column;
@@ -794,6 +801,10 @@ footer {
                         // max-height: 314px;
                         border-radius: 20px;
                         background: linear-gradient(180deg, rgba(255, 255, 255, 0) -0.53%, #F54748 303.75%);
+
+                        @include large-tablet{
+                            width: 260px;
+                        }
 
                         @include tablet {
                             width: 280px;
@@ -1324,15 +1335,15 @@ footer {
                     position: relative;
                     margin-top: 90px;
 
-                    @include mobile {
-                        margin-top: 70px;
-                    }
-
-                    @include tablet {
+                    @include large-tablet {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
+                    }
+
+                    @include mobile {
+                        margin-top: 70px;
                     }
 
                     .img-boxes {
@@ -1955,7 +1966,7 @@ footer {
                     display: flex;
                     justify-content: space-between;
 
-                    @include tablet {
+                    @include large-tablet {
                         display: block;
                     }
 
@@ -2086,7 +2097,7 @@ footer {
                         position: relative;
                         margin-top: 90px;
 
-                        @include tablet {
+                        @include large-tablet {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
