@@ -802,7 +802,7 @@ footer .main-content .strip .p-txt {
 @media (max-width: 526px) {
   .our-branches .main-content .owl-carousel.branches-caro .content {
     width: auto;
-    padding: 0px 40px;
+    padding: 0px 30px;
     margin-left: 0px;
   }
 }
