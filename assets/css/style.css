@@ -703,6 +703,18 @@ footer .main-content .strip .p-txt {
   padding: 30px;
   position: relative;
 }
+@media (max-width: 1080px) {
+  .authentic .main-content .main-card {
+    max-width: 339px;
+    width: auto;
+    min-height: 356px;
+  }
+}
+@media (max-width: 912px) {
+  .authentic .main-content .main-card {
+    min-height: 275px;
+  }
+}
 @media (max-width: 526px) {
   .authentic .main-content .main-card {
     max-width: 339px;
@@ -732,7 +744,7 @@ footer .main-content .strip .p-txt {
   margin-bottom: 12px;
   margin-top: 20px;
 }
-@media (max-width: 526px) {
+@media (max-width: 1080px) {
   .authentic .main-content .main-card .para-txt {
     text-align: center;
   }
@@ -762,9 +774,16 @@ footer .main-content .strip .p-txt {
   width: 243px;
   position: relative;
 }
+@media (max-width: 1080px) {
+  .our-branches .main-content .owl-carousel.branches-caro .content {
+    max-width: 243px;
+    width: auto;
+  }
+}
 @media (max-width: 912px) {
   .our-branches .main-content .owl-carousel.branches-caro .content {
     margin-left: 20px;
+    width: 243px;
   }
 }
 @media (max-width: 526px) {
@@ -1154,6 +1173,16 @@ footer .main-content .strip .p-txt {
   background: rgba(255, 255, 255, 0.4);
   padding: 40px;
   position: relative;
+}
+@media (max-width: 1080px) {
+  .our-customer .main-content .owl-carousel.customer-caro .customer-details .content-card {
+    max-width: 435px;
+  }
+}
+@media (max-width: 912px) {
+  .our-customer .main-content .owl-carousel.customer-caro .customer-details .content-card {
+    max-width: 490px;
+  }
 }
 .our-customer .main-content .owl-carousel.customer-caro .customer-details .content-card .img-box {
   width: 107px;
@@ -1885,6 +1914,17 @@ footer .main-content .strip .p-txt {
   border-radius: 20px;
   padding: 22px;
 }
+@media (max-width: 1080px) {
+  .serving .main-content .row .content-card {
+    min-width: auto;
+    min-height: 272px;
+  }
+}
+@media (max-width: 912px) {
+  .serving .main-content .row .content-card {
+    min-height: auto;
+  }
+}
 @media (max-width: 526px) {
   .serving .main-content .row .content-card {
     min-width: auto;
@@ -1915,6 +1955,16 @@ footer .main-content .strip .p-txt {
 .serving .main-content .row .content-card .content .img-box img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 1080px) {
+  .serving .main-content .row .content-card .content .img-box {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 912px) {
+  .serving .main-content .row .content-card .content .img-box {
+    margin-right: 0px;
+  }
 }
 @media (max-width: 526px) {
   .serving .main-content .row .content-card .content .img-box {

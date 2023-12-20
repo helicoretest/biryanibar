@@ -231,11 +231,12 @@ $breakpoints: (
         }
 
         .navbar-toggler {
-            .mobile-menu{
+            .mobile-menu {
                 width: 35px;
                 height: 30px;
                 cursor: pointer;
             }
+
             @include tablet {
                 padding-right: 1rem;
                 margin-bottom: 1rem;
@@ -886,6 +887,16 @@ footer {
             padding: 30px;
             position: relative;
 
+            @include large-tablet {
+                max-width: 339px;
+                width: auto;
+                min-height: 356px;
+            }
+
+            @include tablet{
+                min-height: 275px;
+            }
+
             @include mobile {
                 max-width: 339px;
                 width: auto;
@@ -919,9 +930,10 @@ footer {
                 margin-bottom: 12px;
                 margin-top: 20px;
 
-                @include mobile {
+                @include large-tablet {
                     text-align: center;
                 }
+
             }
 
             .p-txt {
@@ -956,8 +968,14 @@ footer {
                     width: 243px;
                     position: relative;
 
-                    @include tablet{
+                    @include large-tablet{
+                        max-width: 243px;
+                        width: auto;
+                    }
+
+                    @include tablet {
                         margin-left: 20px;
+                        width: 243px;
                     }
 
                     @include mobile {
@@ -1424,6 +1442,14 @@ footer {
                         background: rgba(255, 255, 255, 0.40);
                         padding: 40px;
                         position: relative;
+
+                        @include large-tablet{
+                            max-width: 435px;
+                        }
+
+                        @include tablet{
+                            max-width: 490px;
+                        }
 
                         .img-box {
                             width: 107px;
@@ -2298,6 +2324,15 @@ footer {
                 border-radius: 20px;
                 padding: 22px;
 
+                @include large-tablet{
+                    min-width: auto;
+                    min-height: 272px;
+                }
+
+                @include tablet{
+                    min-height: auto;
+                }
+
                 @include mobile {
                     min-width: auto;
                     min-height: auto;
@@ -2327,6 +2362,14 @@ footer {
                         img {
                             width: 100%;
                             height: 100%;
+                        }
+
+                        @include large-tablet{
+                            margin-right: 20px;
+                        }
+
+                        @include tablet{
+                            margin-right: 0px;
                         }
 
                         @include mobile {
